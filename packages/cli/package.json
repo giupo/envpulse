@@ -1,0 +1,22 @@
+{
+  "name": "@envpulse/cli",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "envpulse": "./bin/envpulse.js"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "dev": "tsx src/index.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "yargs": "^17.7.2",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/yargs": "^17.0.33",
+    "tsx": "^4.19.2"
+  }
+}
