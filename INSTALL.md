@@ -3,7 +3,7 @@
 Requisiti: Node.js >= 22 e [pnpm](https://pnpm.io).
 
 ```sh
-node -v   # deve essere >= 22
+node -v   # deve essere >= 22 e <26
 npm i -g pnpm   # se pnpm non è già installato
 ```
 
